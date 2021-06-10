@@ -1,2 +1,2 @@
 # Houses-Regression
-Expand students skill to analiesis data of houses prises
+Expand students skill to analyse data of houses prices
