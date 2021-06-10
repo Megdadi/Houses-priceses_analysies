@@ -1,2 +1,2 @@
 # Houses-Regression
-Expand their skill set before trying a featured competition.  Regression techniques like random forest and gradient boosting
+Expand students skill set such as  Regression techniques like random forest and gradient boosting.
