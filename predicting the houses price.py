@@ -15,16 +15,18 @@ df_train = pd.read_csv('D:/Houses-Regression/train.csv')
 df_train.head()#Browse the first five lines
 #check the columns
 df_train.columns
-#################################33
+#################################
 df_train['SalePrice']#price column display
 df_train['SalePrice'].describe()#get the important details
-##################################################
+#################################
 #histogram the price
 sns.distplot(df_train['SalePrice'])
-#######################################
+#################################
 #skewness and kurtosis
 print("Skewness: %f" % df_train['SalePrice'].skew())# الانحراف
 print("Kurtosis: %f" % df_train['SalePrice'].kurt())# فيشر
+
+
 ################ Relationship with numerical variables##############
 #scatter plot grlivarea/saleprice
 var = 'GrLivArea'# متغير المساحة
