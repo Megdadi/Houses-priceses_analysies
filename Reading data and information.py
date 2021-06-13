@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 from scipy import stats
 import warnings
 warnings.filterwarnings('ignore')
-
+################################
 df_train = pd.read_csv('D:/Houses-Regression/train.csv')
 types=df_train.dtypes
 firsr_five_rows=df_train.head()
