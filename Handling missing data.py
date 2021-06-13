@@ -13,7 +13,7 @@ df_train = pd.read_csv('D:/Houses-Regression/train.csv')
 
 
 
-############# Handling missing data #####################
+############## Handling missing data #####################
 print(df_train.shape) # (1460, 81)
 
 missing_values= df_train.isnull().sum().sort_values(ascending=False)
